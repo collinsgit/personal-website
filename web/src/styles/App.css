@@ -1,0 +1,28 @@
+.welcome {
+    background: #52658f url('../images/me_bench_blue.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.light-text {
+    color: #f7f5e6;
+}
+
+.header-text {
+    font-family: Montserrat, sans-serif !important;
+    font-weight: 700;
+}
+
+.light-divider {
+    border-top: 4px solid #f7f5e6;
+    color: #f7f5e6;
+    width: 300px;
+}
+
+.light-divider:after, .dark-divider:after {
+    position: relative;
+    top: -0.77em;
+    display: inline-block;
+    padding: 0 calc(50% - 0.25em);
+    content: '\ffee';
+    font-size: 4em;
+}
