@@ -19,24 +19,26 @@ class NavBar extends React.Component {
   }
 
   render() {
+    const sections = [];
+    this.props.sections.forEach(section => {
+      sections.push(
+        <NavItem key={section}>
+          <NavLink href={'#' + section.replace(' ', '_')}>
+            {section}
+          </NavLink>
+        </NavItem>
+      );
+    });
+
     return (
-      <Navbar color='light' light expand='md'>
+      <Navbar color='dark' dark expand='md' fixed='top' id='navbar'>
         <NavbarBrand>
-          COLLIN POTTS
+          collin potts
         </NavbarBrand>
         <NavbarToggler onClick={this.toggle} />
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className='ml-auto'  navbar>
-            <NavItem>
-              <NavLink href='/'>
-                ITEM1
-              </NavLink>
-            </NavItem>
-            <NavItem>
-              <NavLink href='/'>
-                ITEM2
-              </NavLink>
-            </NavItem>
+            {sections}
           </Nav>
         </Collapse>
       </Navbar>

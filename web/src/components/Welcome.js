@@ -9,10 +9,10 @@ class Welcome extends React.Component {
             src={require('./../images/me_typing_icon.png')}
             alt='Profile shot'
             />
-          <h1 className='mx-auto light-text header-text mb-3'>COLLIN POTTS</h1>
+          <h1 className='mx-auto light-text header-text mb-3'>collin potts</h1>
           <hr className='light-divider' />
           <h2 className='mx-auto light-text mt-3' style={{fontSize: '1.3rem', fontWeight: '300'}}>
-            Software Engineer - Student - Mathematician
+            software engineer - student - mathematician
           </h2>
         </div>
       </header>

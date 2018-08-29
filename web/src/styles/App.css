@@ -29,11 +29,30 @@
     width: 300px;
 }
 
+.light-background, .bg-light {
+    background-color: #f7f5e6 !important;
+}
+
+.dark-background {
+    background-color: #52658f !important;
+}
+
+.bg-dark {
+    background-color: #333a56 !important;
+}
+
 .light-divider:after, .dark-divider:after {
     position: relative;
-    top: -0.77em;
+    top: -0.75em;
     display: inline-block;
     padding: 0 calc(50% - 0.25em);
     content: '\ffee';
-    font-size: 4em;
+    font-size: 5em;
+    font-weight: 700;
+}
+
+.navbar-brand {
+    color: #f7f5e6 !important;
+    font-family: Montserrat, sans-serif;
+    font-weight: 700;
 }
