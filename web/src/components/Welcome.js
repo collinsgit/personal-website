@@ -3,7 +3,7 @@ import React from 'react';
 class Welcome extends React.Component {
   render() {
     return (
-      <header className='welcome' style={{paddingTop: 'calc(6rem + 7px)', paddingBottom: '6rem'}}>
+      <header className='welcome' style={{paddingTop: 'calc(6rem + 72px)', paddingBottom: '6rem'}}>
         <div style={{display: 'flex', flexFlow: 'column'}}>
           <img className='image-fluid my-2 mx-auto mb-5'
             src={require('./../images/me_typing_icon.png')}

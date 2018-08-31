@@ -22,10 +22,10 @@ class Resume extends React.Component {
         <h1 className='dark-text header-text mb-3'>resume</h1>
         <hr className='dark-divider' />
         <div className='mt-3 mx-auto' style={{maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
-          <h4 className='dark-text' align='center'>
+          <h5 className='dark-text' align='center'>
             For an overview of my experience, skills, and education, take a look at my resume. If you are interested in
             learning more about me, feel free to contact me using the info at the bottom of the page!
-          </h4>
+          </h5>
         </div>
         <div className='mt-3 mx-auto' style={{display: 'flex', maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
           <button className='btn btn-outline-primary mx-2' onClick={this.toggle} style={{height: '40px', width: '200px'}}>

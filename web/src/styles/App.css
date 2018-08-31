@@ -61,6 +61,10 @@ body {
     font-weight: 700;
 }
 
+a:hover {
+    color: #333a56;
+}
+
 .btn-outline-primary {
     border-color: #52658f !important;
     color: #52658f !important;
