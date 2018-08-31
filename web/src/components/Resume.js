@@ -24,14 +24,14 @@ class Resume extends React.Component {
         <div className='mt-3 mx-auto' style={{maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
           <h5 className='dark-text' align='center'>
             For an overview of my experience, skills, and education, take a look at my resume. If you are interested in
-            learning more about me, feel free to contact me using the info at the bottom of the page!
+            learning more about me, you are welcome to contact me using the info at the bottom of the page!
           </h5>
         </div>
-        <div className='mt-3 mx-auto' style={{display: 'flex', maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
-          <button className='btn btn-outline-primary mx-2' onClick={this.toggle} style={{height: '40px', width: '200px'}}>
+        <div className='mx-auto' style={{display: 'flex', flexWrap: 'wrap', justifyContent: 'space-evenly', maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
+          <button className='btn btn-outline-primary mt-3 mx-2' onClick={this.toggle} style={{height: '40px', width: '200px'}}>
             view resume
           </button>
-          <a className='btn btn-outline-primary mx-2' href='resume.pdf' download style={{height: '40px', width: '200px'}}>
+          <a className='btn btn-outline-primary mt-3 mx-2' href='resume.pdf' download style={{height: '40px', width: '200px'}}>
             download resume
           </a>
         </div>

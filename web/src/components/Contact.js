@@ -9,7 +9,7 @@ class Contact extends React.Component {
         <div className='mt-3 mx-auto' style={{maxWidth: '720px', paddingLeft: '15px', paddingRight: '15px'}}>
           <h5 align='center' className='dark-text'>
             If you're interested in learning more about me, my projects, or my interests, contact me. I prefer to
-            communicate over email, but feel free to call or write instead.
+            communicate over email, but feel free to call or message me on Facebook or LinkedIn!
           </h5>
           <table align='center' cellPadding='8px'>
             <tbody>

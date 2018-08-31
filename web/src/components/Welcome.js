@@ -11,7 +11,7 @@ class Welcome extends React.Component {
             />
           <h1 className='mx-auto light-text header-text mb-3'>collin potts</h1>
           <hr className='light-divider' />
-          <h2 className='mx-auto light-text mt-3' style={{fontSize: '1.3rem', fontWeight: '300'}}>
+          <h2 align='center' className='mx-auto light-text mt-3' style={{fontSize: '1.3rem', fontWeight: '300'}}>
             software engineer - student - mathematician
           </h2>
         </div>
